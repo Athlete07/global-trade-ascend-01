@@ -57,6 +57,16 @@ const Navigation = () => {
       title: "Export Strategy Sessions",
       description: "1-on-1 mentorship with export experts",
       href: "/consulting/export-strategy-sessions"
+    },
+    {
+      title: "Export Kickstart Package",
+      description: "IEC, GST, RCMC registration & market report",
+      href: "/consulting/export-kickstart-package"
+    },
+    {
+      title: "First Shipment Handholding",
+      description: "End-to-end management of your first export",
+      href: "/consulting/first-shipment-handholding"
     }
   ];
 

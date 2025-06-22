@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Globe, Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Youtube, ArrowRight } from 'lucide-react';
@@ -16,7 +15,9 @@ const Footer = () => {
     { name: "Global Seller Discovery", href: "/consulting/global-seller-discovery" },
     { name: "Compliance & Documentation", href: "/consulting/compliance-docs" },
     { name: "Pricing Strategy", href: "/consulting/pricing-strategy" },
-    { name: "Export Strategy Sessions", href: "/consulting/export-strategy-sessions" }
+    { name: "Export Strategy Sessions", href: "/consulting/export-strategy-sessions" },
+    { name: "Export Kickstart Package", href: "/consulting/export-kickstart-package" },
+    { name: "First Shipment Handholding", href: "/consulting/first-shipment-handholding" }
   ];
 
   const quickLinks = [

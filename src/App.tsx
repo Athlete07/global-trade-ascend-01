@@ -19,6 +19,8 @@ import GlobalSellerDiscovery from "./pages/GlobalSellerDiscovery";
 import ComplianceDocs from "./pages/ComplianceDocs";
 import PricingStrategy from "./pages/PricingStrategy";
 import ExportStrategySessions from "./pages/ExportStrategySessions";
+import ExportKickstartPackage from "./pages/ExportKickstartPackage";
+import FirstShipmentHandholding from "./pages/FirstShipmentHandholding";
 import Login from "./pages/Login";
 import BookFreeCall from "./pages/BookFreeCall";
 import NotFound from "./pages/NotFound";
@@ -49,6 +51,8 @@ const App = () => (
               <Route path="/consulting/compliance-docs" element={<ComplianceDocs />} />
               <Route path="/consulting/pricing-strategy" element={<PricingStrategy />} />
               <Route path="/consulting/export-strategy-sessions" element={<ExportStrategySessions />} />
+              <Route path="/consulting/export-kickstart-package" element={<ExportKickstartPackage />} />
+              <Route path="/consulting/first-shipment-handholding" element={<FirstShipmentHandholding />} />
               <Route path="/consulting/book-free-call" element={<BookFreeCall />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
